@@ -12,5 +12,9 @@ namespace ConsoleApp2
         private string userName;
         private string password;
         private string role;
+        private string department;
+        private string email;
+        private string mobile;
+        private string Manager;
     }
 }
