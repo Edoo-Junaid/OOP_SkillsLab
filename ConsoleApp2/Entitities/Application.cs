@@ -12,5 +12,7 @@ namespace ConsoleApp2.Entitities
         private string userId;
         private string trainingId;
         private string status;
+        private string NIC;
+        private string managerId;
     }
 }

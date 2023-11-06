@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp2.Entitities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace ConsoleApp2.Interfaces
         public void updateTraining();
         public void deleteTraining(string trainingID);
 
-        public void getAllTrainings();
+        public List<Training> getAllTrainings();
         public void getAllTrainingsByDept(string deptID);
     }
 }
