@@ -1,4 +1,5 @@
-﻿using ConsoleApp2.Interfaces;
+﻿using ConsoleApp2.Entitities;
+using ConsoleApp2.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,11 @@ namespace ConsoleApp2.service
             throw new NotImplementedException();
         }
 
+        public void addTraining(Training training)
+        {
+            throw new NotImplementedException();
+        }
+
         public void deleteTraining(string trainingID)
         {
             throw new NotImplementedException();
@@ -37,6 +43,11 @@ namespace ConsoleApp2.service
         }
 
         public void updateTraining()
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Training> ITrainingService.getAllTrainings()
         {
             throw new NotImplementedException();
         }

@@ -9,7 +9,7 @@ namespace ConsoleApp2.Interfaces
 {
     internal interface ITrainingService
     {
-        public void addTraining();
+        public void addTraining(Training training);
         public void updateTraining();
         public void deleteTraining(string trainingID);
 
