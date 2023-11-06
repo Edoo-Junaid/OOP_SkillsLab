@@ -14,5 +14,7 @@ namespace ConsoleApp2.Interfaces
         public bool approveApplication();   
 
         public bool declineApplication();
+
+        public bool loginUser(UserLogin userLogin);
     }
 }

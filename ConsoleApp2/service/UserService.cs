@@ -20,6 +20,11 @@ namespace ConsoleApp2.service
             throw new NotImplementedException();
         }
 
+        public bool loginUser(UserLogin userLogin)
+        {
+            throw new NotImplementedException();
+        }
+
         public void registerUser(UserRegistration userRegistration)
         {
             throw new NotImplementedException();
