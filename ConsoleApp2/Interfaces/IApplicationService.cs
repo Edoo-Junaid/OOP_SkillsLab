@@ -13,7 +13,7 @@ namespace ConsoleApp2.Interfaces
         public List<Application> getApplicationsByManagerId(string managerId);
 
         public void addApplication(Application application);
-        
+
 
     }
 }

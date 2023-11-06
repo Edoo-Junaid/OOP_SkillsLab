@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Interfaces
 {
-    internal interface ITraining
+    internal interface ITrainingService
     {
         public void addTraining();
         public void updateTraining();
         public void deleteTraining(string trainingID);
+
+        public void getAllTrainings();
+        public void getAllTrainingsByDept(string deptID);
     }
 }

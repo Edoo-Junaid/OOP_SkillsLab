@@ -11,5 +11,7 @@ namespace ConsoleApp2.Interfaces
     {
         List<Application> getAllApplications();
         List<Application> getApplicationsByManagerId(string managerId);
+
+        void addApplication(Application application);
     }
 }

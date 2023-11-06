@@ -14,5 +14,9 @@ namespace ConsoleApp2.Interfaces
         void addTraining(Training training);
         void removeTraining(string training_id);
 
+        void updateTraining(Training training);
+
+        List<Training> getAllTrainingByDept(string dept_id);
+
     }
 }

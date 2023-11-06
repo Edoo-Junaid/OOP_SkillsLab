@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ConsoleApp2.Entitities;
+using ConsoleApp2.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,39 +8,21 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.service
 {
-    internal class UserService
+    internal class UserService : IUserService
     {
-
-        public void login()
+        public bool approveApplication()
         {
             throw new NotImplementedException();
         }
 
-        public void logout()
-        {
-            throw new NotImplementedException();
-        }   
-
-        public void register()
+        public bool declineApplication()
         {
             throw new NotImplementedException();
         }
 
-        public bool approveRequest(string employeeId, string trainingId)
+        public void registerUser(UserRegistration userRegistration)
         {
-            //implementation
-            return true;
-        }
-
-        public void notify()
-        {
-            Console.WriteLine("Notified");
-        }
-
-        public bool declineRequest(string employeeId, string trainingId)
-        {
-            //implementation
-            return true;
+            throw new NotImplementedException();
         }
     }
 }

@@ -15,12 +15,12 @@ namespace ConsoleApp2.Repository
             throw new NotImplementedException();
         }
 
-        public List<Training> getAllTrainings()
+        public List<Training> getAllTrainingByDept(string dept_id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> getTrainingByManager(string status)
+        public List<Training> getAllTrainings()
         {
             throw new NotImplementedException();
         }
@@ -29,5 +29,11 @@ namespace ConsoleApp2.Repository
         {
             throw new NotImplementedException();
         }
+
+        public void updateTraining(Training training)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
