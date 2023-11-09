@@ -9,10 +9,10 @@ namespace ConsoleApp2.Interfaces
 {
     internal interface IApplicationService
     {
-        public List<Application> getAllApplications();
-        public List<Application> getApplicationsByManagerId(string managerId);
+        public List<Application> GetAllApplications();
+        public List<Application> GetApplicationsByManagerId(string managerId);
 
-        public void addApplication(Application application);
+        public void AddApplication(Application application);
 
 
     }

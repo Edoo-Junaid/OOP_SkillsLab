@@ -10,18 +10,18 @@ namespace ConsoleApp2.Repository
 {
     internal class ApplicationRepository : IApplicationRepository
     {
-        public void addApplication(Application application)
+        public void AddApplication(Application application)
         {
             throw new NotImplementedException();
         }
 
-        public List<Application> getAllApplications()
+        public List<Application> GetAllApplications()
         {
             throw new NotImplementedException();
         }
 
 
-        public List<Application> getApplicationsByManagerId(string managerId)
+        public List<Application> GetApplicationsByManagerId(string managerId)
         {
             throw new NotImplementedException();
         }

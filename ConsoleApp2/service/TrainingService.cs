@@ -19,27 +19,27 @@ namespace ConsoleApp2.service
         }
 
 
-        public void addTraining(Training training)
+        public void AddTraining(Training training)
         {
             throw new NotImplementedException();
         }
 
-        public void deleteTraining(string trainingID)
+        public void DeleteTraining(string trainingID)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> getAllTrainings()
+        public List<Training> GetAllTrainings()
         {
             throw new NotImplementedException();
         }
 
-        public void getAllTrainingsByDept(string deptID)
+        public void GetAllTrainingsByDept(string deptID)
         {
             throw new NotImplementedException();
         }
 
-        public void updateTraining()
+        public void UpdateTraining(Training training)
         {
             throw new NotImplementedException();
         }

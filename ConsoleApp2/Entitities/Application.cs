@@ -8,11 +8,11 @@ namespace ConsoleApp2.Entitities
 {
     internal class Application
     {
-        private string applicationId;
-        private string userId;
-        private string trainingId;
-        private string status;
+        private string ApplicationId;
+        private string UserId;
+        private string TrainingId;
+        private string Status;
         private string NIC;
-        private string managerId;
+        private string ManagerId;
     }
 }

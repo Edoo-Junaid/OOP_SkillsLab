@@ -9,9 +9,9 @@ namespace ConsoleApp2.Interfaces
 {
     internal interface IApplicationRepository
     {
-        List<Application> getAllApplications();
-        List<Application> getApplicationsByManagerId(string managerId);
+        List<Application> GetAllApplications();
+        List<Application> GetApplicationsByManagerId(string managerId);
 
-        void addApplication(Application application);
+        void AddApplication(Application application);
     }
 }

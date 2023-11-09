@@ -10,27 +10,27 @@ namespace ConsoleApp2.Repository
 {
     internal class TrainingRepository : ITrainingRepository
     {
-        public void addTraining(Training training)
+        public void AddTraining(Training training)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> getAllTrainingByDept(string dept_id)
+        public List<Training> GetAllTrainingByDept(string dept_id)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> getAllTrainings()
+        public List<Training> GetAllTrainings()
         {
             throw new NotImplementedException();
         }
 
-        public void removeTraining(string training_id)
+        public void RemoveTraining(string training_id)
         {
             throw new NotImplementedException();
         }
 
-        public void updateTraining(Training training)
+        public void UpdateTraining(Training training)
         {
             throw new NotImplementedException();
         }

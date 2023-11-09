@@ -9,13 +9,13 @@ namespace ConsoleApp2
 {
     internal class User
     {
-        private string userId;
-        private string userName;
-        private string password;
-        private RolesEnum role;
-        private string department;
-        private string email;
-        private string mobile;
+        private string UserId;
+        private string UserName;
+        private string Password;
+        private RolesEnum Role;
+        private string Department;
+        private string Email;
+        private string Mobile;
         private string Manager;
     }
 }

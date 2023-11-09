@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.service
 {
-    internal class ApplicationService: IApplicationService
+    internal class ApplicationService : IApplicationService
     {
         private IApplicationRepository applicationRepository;
 
@@ -17,17 +17,17 @@ namespace ConsoleApp2.service
             this.applicationRepository = applicationRepository;
         }
 
-        public void addApplication(Application application)
+        public void AddApplication(Application application)
         {
             throw new NotImplementedException();
         }
 
-        public List<Application> getAllApplications()
+        public List<Application> GetAllApplications()
         {
             return applicationRepository.getAllApplications();
         }
 
-        public List<Application> getApplicationsByManagerId(string managerId)
+        public List<Application> GetApplicationsByManagerId(string managerId)
         {
             return applicationRepository.getApplicationsByManagerId(managerId);
         }

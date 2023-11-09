@@ -8,14 +8,14 @@ namespace ConsoleApp2.Entitities
 {
     public class Training
     {
-        private string trainingId;
-        private string name;
-        private string description;
-        private string trainer;
-        private string duration;
-        private string date;
-        private string time;
-        private string venue;
+        private string TrainingId;
+        private string Name;
+        private string Description;
+        private string Trainer;
+        private string Duration;
+        private string Date;
+        private string Time;
+        private string Venue;
 
     }
 

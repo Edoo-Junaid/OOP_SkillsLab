@@ -9,12 +9,12 @@ namespace ConsoleApp2.Interfaces
 {
     internal interface IUserService
     {
-        public void registerUser(UserRegistration userRegistration);
+        public void RegisterUser(UserRegistration userRegistration);
 
-        public bool approveApplication();   
+        public bool ApproveApplication(int applicationID);   
 
-        public bool declineApplication();
+        public bool DeclineApplication(int applicationID);
 
-        public bool loginUser(UserLogin userLogin);
+        public bool LoginUser(UserLogin userLogin);
     }
 }

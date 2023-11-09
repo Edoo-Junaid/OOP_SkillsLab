@@ -8,7 +8,7 @@ namespace ConsoleApp2.Entitities
 {
     internal class UserLogin
     {
-        public string email;
-        public string password;
+        public string Email;
+        public string Password;
     }
 }

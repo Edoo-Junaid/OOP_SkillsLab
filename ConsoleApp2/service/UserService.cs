@@ -12,27 +12,29 @@ namespace ConsoleApp2.service
     {
 
         private IUserRepository userRepository;
+        private INotificationService notificationService;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository,INotificationService notificationService)
         {
             this.userRepository = userRepository;
+            this.notificationService = notificationService;
         }
-        public bool approveApplication()
+        public bool ApproveApplication(int applicationID)
         {
             throw new NotImplementedException();
         }
 
-        public bool declineApplication()
+        public bool DeclineApplication(int applicationID)
         {
             throw new NotImplementedException();
         }
 
-        public bool loginUser(UserLogin userLogin)
+        public bool LoginUser(UserLogin userLogin)
         {
             throw new NotImplementedException();
         }
 
-        public void registerUser(UserRegistration userRegistration)
+        public void RegisterUser(UserRegistration userRegistration)
         {
             throw new NotImplementedException();
         }

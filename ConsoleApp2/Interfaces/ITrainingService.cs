@@ -9,11 +9,11 @@ namespace ConsoleApp2.Interfaces
 {
     public interface ITrainingService
     {
-        public void addTraining(Training training);
-        public void updateTraining();
-        public void deleteTraining(string trainingID);
+        public void AddTraining(Training training);
+        public void UpdateTraining(Training training);
+        public void DeleteTraining(string trainingID);
 
-        public List<Training> getAllTrainings();
-        public void getAllTrainingsByDept(string deptID);
+        public List<Training> GetAllTrainings();
+        public void GetAllTrainingsByDept(string deptID);
     }
 }

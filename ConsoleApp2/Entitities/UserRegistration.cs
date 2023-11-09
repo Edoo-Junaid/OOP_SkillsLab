@@ -8,9 +8,9 @@ namespace ConsoleApp2.Entitities
 {
     internal class UserRegistration
     {
-        public string email;
-        public string password;
-        public string confirmPassword;
+        public string Email;
+        public string Password;
+        public string ConfirmPassword;
     }
 
 

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.service
 {
-    internal class NotificationService : INotification
+    internal class NotificationService : INotificationService
     {
-        public void sendMailNotification(string recepient, string body )
+        public void SendMailNotification(string recepient, string body )
         {
             throw new NotImplementedException();
         }

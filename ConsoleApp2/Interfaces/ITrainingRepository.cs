@@ -9,14 +9,14 @@ namespace ConsoleApp2.Interfaces
 {
     internal interface ITrainingRepository
     {
-        List<Training> getAllTrainings();
+        List<Training> GetAllTrainings();
 
-        void addTraining(Training training);
-        void removeTraining(string training_id);
+        void AddTraining(Training training);
+        void RemoveTraining(string training_id);
 
-        void updateTraining(Training training);
+        void UpdateTraining(Training training);
 
-        List<Training> getAllTrainingByDept(string dept_id);
+        List<Training> GetAllTrainingByDept(string dept_id);
 
     }
 }

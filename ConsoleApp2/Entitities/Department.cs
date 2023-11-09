@@ -8,8 +8,8 @@ namespace ConsoleApp2.Entitities
 {
     internal class Department
     {
-        private string departmentId;
-        private string name;
-        private string description;
+        private string DepartmentId;
+        private string Name;
+        private string Description;
     }
 }

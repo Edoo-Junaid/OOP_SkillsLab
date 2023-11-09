@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Interfaces
 {
-    internal interface INotification
+    public interface INotificationService
     {
-        public void sendMailNotification(string recepient,string body);
+        public void SendMailNotification(string recepient,string body);
     }
 }
