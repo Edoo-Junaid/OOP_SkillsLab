@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp2.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace ConsoleApp2
         private string userId;
         private string userName;
         private string password;
-        private string role;
+        private RolesEnum role;
         private string department;
         private string email;
         private string mobile;

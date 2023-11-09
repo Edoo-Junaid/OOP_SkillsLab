@@ -17,10 +17,7 @@ namespace ConsoleApp2.service
             
             this.trainingRepository = trainingRepository;
         }
-        public void addTraining()
-        {
-            throw new NotImplementedException();
-        }
+
 
         public void addTraining(Training training)
         {
@@ -32,7 +29,7 @@ namespace ConsoleApp2.service
             throw new NotImplementedException();
         }
 
-        public void getAllTrainings()
+        public List<Training> getAllTrainings()
         {
             throw new NotImplementedException();
         }
@@ -47,9 +44,5 @@ namespace ConsoleApp2.service
             throw new NotImplementedException();
         }
 
-        List<Training> ITrainingService.getAllTrainings()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

@@ -11,5 +11,6 @@ namespace ConsoleApp2.Interfaces
     {
         public bool registerUser(UserRegistration userRegistration);
 
+        public bool deleteUser(string userId );
     }
 }
