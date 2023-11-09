@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Interfaces
 {
-    internal interface ITrainingService
+    public interface ITrainingService
     {
         public void addTraining(Training training);
         public void updateTraining();

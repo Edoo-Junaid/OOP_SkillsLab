@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Entitities
 {
-    internal class Training
+    public class Training
     {
         private string trainingId;
         private string name;
