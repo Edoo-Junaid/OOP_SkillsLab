@@ -8,7 +8,7 @@ using ConsoleApp2.DALInterface;
 
 namespace ConsoleApp2.Repository
 {
-    public class ApplicationDAl : IApplicationDAL
+    public class ApplicationDAL : IApplicationDAL
     {
 
         public Application Get(string applicationId)
