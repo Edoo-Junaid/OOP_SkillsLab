@@ -1,5 +1,8 @@
-﻿using ConsoleApp2.Entitities;
-using ConsoleApp2.Interfaces;
+﻿using ConsoleApp2.DALInterface;
+using ConsoleApp2.Entitities;
+
+using ConsoleApp2.ServicesInterface;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +14,9 @@ namespace ConsoleApp2.service
     internal class UserService : IUserService
     {
 
-        private IUserRepository userRepository;
+        private IUserDAL userRepository;
         private INotificationService notificationService;
 
-        public UserService(IUserRepository userRepository,INotificationService notificationService)
-        {
-            this.userRepository = userRepository;
-            this.notificationService = notificationService;
-        }
         public bool ApproveApplication(int applicationID)
         {
             throw new NotImplementedException();
@@ -29,12 +27,12 @@ namespace ConsoleApp2.service
             throw new NotImplementedException();
         }
 
-        public bool LoginUser(UserLogin userLogin)
+        public User Login(UserLogin userLogin)
         {
             throw new NotImplementedException();
         }
 
-        public void RegisterUser(UserRegistration userRegistration)
+        public void Register(UserRegistration userRegistration)
         {
             throw new NotImplementedException();
         }

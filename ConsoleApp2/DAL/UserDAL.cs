@@ -1,23 +1,26 @@
 ﻿using ConsoleApp2.Entitities;
-using ConsoleApp2.Interfaces;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp2.DALInterface;
 
 namespace ConsoleApp2.Repository
 {
-    internal class UserRepository : IUserRepository
+    internal class UserDAL : IUserDAL
     {
-        public bool deleteUser(string userId)
+
+        public bool Register(UserRegistration userRegistration)
         {
             throw new NotImplementedException();
         }
 
-        public bool registerUser(UserRegistration userRegistration)
+        public bool Delete(string userId)
         {
             throw new NotImplementedException();
         }
+
     }
 }

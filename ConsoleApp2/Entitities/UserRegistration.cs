@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Entitities
 {
-    internal class UserRegistration
+    public class UserRegistration
     {
         public string Email;
         public string Password;
         public string ConfirmPassword;
     }
-
 
 }

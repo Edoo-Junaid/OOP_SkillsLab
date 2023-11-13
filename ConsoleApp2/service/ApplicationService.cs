@@ -1,5 +1,6 @@
-﻿using ConsoleApp2.Entitities;
-using ConsoleApp2.Interfaces;
+﻿using ConsoleApp2.DALInterface;
+using ConsoleApp2.Entitities;
+using ConsoleApp2.ServicesInterface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,26 +11,41 @@ namespace ConsoleApp2.service
 {
     internal class ApplicationService : IApplicationService
     {
-        private IApplicationRepository applicationRepository;
+        private IApplicationDAL applicationDal;
 
-        private ApplicationService(IApplicationRepository applicationRepository)
+        private ApplicationService(IApplicationDAL applicationDal)
         {
-            this.applicationRepository = applicationRepository;
+            this.applicationDal = applicationDal;
         }
 
-        public void AddApplication(Application application)
+        public void Add(Application application)
         {
             throw new NotImplementedException();
         }
 
-        public List<Application> GetAllApplications()
+        public void Delete(string applicationId)
         {
-            return applicationRepository.getAllApplications();
+            throw new NotImplementedException();
         }
 
-        public List<Application> GetApplicationsByManagerId(string managerId)
+        public Application Get(string applicationId)
         {
-            return applicationRepository.getApplicationsByManagerId(managerId);
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Application> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Application> GetAllByManagerId(string managerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Save(Application application)
+        {
+            throw new NotImplementedException();
         }
     }
 }

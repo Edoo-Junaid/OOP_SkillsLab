@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class User
+    public class User
     {
         private string UserId;
         private string UserName;

@@ -1,5 +1,5 @@
-﻿using ConsoleApp2.Entitities;
-using ConsoleApp2.Interfaces;
+﻿using ConsoleApp2.DALInterface;
+using ConsoleApp2.Entitities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,32 +8,38 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2.Repository
 {
-    internal class TrainingRepository : ITrainingRepository
+    public class TrainingDAL : ITrainingDAL
     {
-        public void AddTraining(Training training)
+
+        public Training Get()
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> GetAllTrainingByDept(string dept_id)
+        public IEnumerable<Training> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> GetAllTrainings()
+        public IEnumerable<Training> GetAllByDept(string dept_id)
         {
             throw new NotImplementedException();
         }
 
-        public void RemoveTraining(string training_id)
+        public bool Add(Training training)
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateTraining(Training training)
+        public bool Delete(string training_id)
         {
             throw new NotImplementedException();
         }
 
+
+        public bool Save(Training training)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

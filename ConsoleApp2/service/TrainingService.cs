@@ -1,5 +1,6 @@
-﻿using ConsoleApp2.Entitities;
-using ConsoleApp2.Interfaces;
+﻿using ConsoleApp2.DALInterface;
+using ConsoleApp2.Entitities;
+using ConsoleApp2.ServicesInterface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,38 +12,41 @@ namespace ConsoleApp2.service
     internal class TrainingService : ITrainingService
 
     {
-        private ITrainingRepository trainingRepository;
+        private ITrainingDAL trainingDal;
 
-        public TrainingService(ITrainingRepository trainingRepository) {
+        public TrainingService(ITrainingDAL trainingDal) {
             
-            this.trainingRepository = trainingRepository;
+            this.trainingDal = trainingDal;
         }
 
-
-        public void AddTraining(Training training)
+        public bool Add(Training training)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteTraining(string trainingID)
+        public bool Delete(string trainingID)
         {
             throw new NotImplementedException();
         }
 
-        public List<Training> GetAllTrainings()
+        public Training Get(string trainingID)
         {
             throw new NotImplementedException();
         }
 
-        public void GetAllTrainingsByDept(string deptID)
+        public IEnumerable<Training> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public void UpdateTraining(Training training)
+        public IEnumerable<Training> GetAllByDept(string deptID)
         {
             throw new NotImplementedException();
         }
 
+        public bool Save(Training training)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

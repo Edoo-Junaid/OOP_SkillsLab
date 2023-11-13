@@ -5,16 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2.Interfaces
+namespace ConsoleApp2.ServicesInterface
 {
     internal interface IUserService
     {
-        public void RegisterUser(UserRegistration userRegistration);
+        public void Register(UserRegistration userRegistration);
 
-        public bool ApproveApplication(int applicationID);   
+        public bool ApproveApplication(int applicationID);
 
         public bool DeclineApplication(int applicationID);
 
-        public bool LoginUser(UserLogin userLogin);
+        public User Login(UserLogin userLogin);
     }
 }
